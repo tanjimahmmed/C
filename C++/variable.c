@@ -11,12 +11,14 @@ int main(){
     int a = 20;
     int b = 30;
     float c = 33.3333;
+    char d = 't';
 
     printf("%d + %d = %d\n", a, b, a+b);
     printf("%d - %d = %d\n", a, b, a-b);
     printf("%d * %d = %d\n", a, b, a*b);
     printf("%d / %d = %d\n", a, b, a/b);
     printf("%d + %d + %f = %f\n", a, b, c, a+b+c);
+    printf("%c\n", d);
 
     printf("%d\n", abc); //global variable
 
